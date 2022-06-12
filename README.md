@@ -1,6 +1,8 @@
-# Wviolator
-Webhook Violator
+# Cringehook
+Webhook Skid Banger is a very cool and eductional webhook raper, i mean reaper*
 
 
-
-Skidding is gay as awlays of course.
+If:
+  Skidding = Gay
+Then try:
+      kys.cum

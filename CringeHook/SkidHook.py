@@ -21,8 +21,8 @@ def menu():
 ▄▀▀▀█▄▐▀▀▄·▐█·▐█· ▐█▌██▀▐█ ▄█▀▄  ▄█▀▄ ▐▀▀▄·
 ▐█▄▪▐█▐█.█▌▐█▌██. ██ ██▌▐▀▐█▌.▐▌▐█▌.▐▌▐█.█▌
  ▀▀▀▀ ·▀  ▀▀▀▀▀▀▀▀▀• ▀▀▀ · ▀█▄▀▪ ▀█▄▀▪·▀  ▀
-{Fore.BLUE}╚═► {Fore.BLUE}Github: @GotRipped
-{Fore.BLUE}╚═► {Fore.CYAN}Telegram: @phonelocked {Fore.RESET}
+{Fore.BLUE}╚═► {Fore.BLUE}Github: @clownist
+{Fore.BLUE}╚═► {Fore.CYAN}Telegram: @Spaceyes {Fore.RESET}
 """)
     print(f"{Fore.BLUE}╔═══════════════════╗\n║{Fore.CYAN}[1] Delete Webhook {Fore.BLUE}║")
     print(f"{Fore.BLUE}║{Fore.CYAN}[2] Spam Webhook   {Fore.BLUE}║")

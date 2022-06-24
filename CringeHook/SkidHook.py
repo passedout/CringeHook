@@ -10,11 +10,11 @@ from pystyle import Colors
 from pystyle import Write
 from discord.utils import get
 
-os.system("title Skidout ✗ ┃ Dev: Skiout ~ Main")
+os.system("title Skidhook ✗ ┃ Dev: clownist ~ Main")
 os.system("cls")
 
 def menu():
-    os.system("title Skidout ✗ ┃ Dev: Skiout ~ Main")
+    os.system("title Skidhook ✗ ┃ Dev: clownist ~ Main")
     print(f"""{Fore.CYAN}
 .▄▄ · ▄ •▄ ▪  ·▄▄▄▄   ▄ .▄            ▄ •▄ 
 ▐█ ▀. █▌▄▌▪██ ██▪ ██ ██▪▐█▪     ▪     █▌▄▌▪
@@ -50,7 +50,7 @@ while option !=0:
             os.system("cls")
 
     elif option ==2:
-        os.system("title Skidout ✗ ┃ Dev: Skiout ~ Spam Webhook")
+        os.system("title Skidhook ✗ ┃ Dev: clownist ~ Spam Webhook")
         webhookurl = Webhook(input(f"{Fore.CYAN}╔══{Fore.BLUE}[{Fore.CYAN}Enter webhook{Fore.BLUE}]{Fore.CYAN}{Fore.CYAN}\n╚══►{Fore.BLUE} "))
         message = input(f"{Fore.CYAN}╔══{Fore.BLUE}[{Fore.CYAN}What do you want to spam{Fore.BLUE}]{Fore.CYAN}{Fore.CYAN}\n╚══►{Fore.BLUE} ")
 
@@ -62,7 +62,7 @@ while option !=0:
             print(f"{Fore.CYAN}╔══{Fore.RED}[{Fore.WHITE}+{Fore.RED}]{Fore.BLUE}: {Fore.YELLOW}\"ctrl + c\" {Fore.BLUE}AT ANY TIME TO STOP!!")
 
     elif option ==3:
-        os.system("title Skidout ✗ ┃ Dev: Skiout ~ Check Webhook")
+        os.system("title Skidhook ✗ ┃ Dev: clownist ~ Check Webhook")
         webhook = input(f"{Fore.CYAN}╔══{Fore.BLUE}[{Fore.CYAN}Enter the webhook you want to check{Fore.BLUE}]{Fore.CYAN}{Fore.CYAN}\n╚══►{Fore.BLUE} ")
         check = requests.get(webhook)
         if check.status_code == 404:
@@ -76,9 +76,9 @@ while option !=0:
             os.system("cls")
             
     elif option ==4:
-        os.system("title Skidout ✗ ┃ Dev: Skiout ~ Credits")
+        os.system("title Skidhook ✗ ┃ Dev: clownist ~ Credits")
         os.system("cls")
-        Write.Print("Github: @GotRiped\nClippy: @sex\nT.me: @phonelocked\nCurrent Dc Server: .gg/termsofservice + .gg/vcc\n\n[Hit \"Enter\" To Return]", Colors.white, interval=0.000001)
+        Write.Print("Github: @clownist\nClippy: @sex\nT.me: @Spaceyes\nCurrent Dc Server: .gg/termsofservice + .gg/vcc\n\n[Hit \"Enter\" To Return]", Colors.white, interval=0.000001)
         os.system("pause >nul")
         os.system("cls")
     else:
@@ -90,7 +90,7 @@ while option !=0:
     menu()
     option = int(input(f"{Fore.CYAN}╔══{Fore.BLUE}[{Fore.CYAN}Choose your option{Fore.BLUE}]{Fore.CYAN}{Fore.CYAN}\n╚══►{Fore.BLUE} "))
 
-os.system("title Skidout ✗ ┃ Dev: Skiout ~ Byebye :(")
+os.system("title Skidhook ✗ ┃ Dev: clownist ~ Byebye :(")
 os.system("cls")
 Write.Print("Thx for using SkidHook, Goodbye!\n\n[Hit \"Enter\" To exit]", Colors.white, interval=0.000001)
 os.system("pause >nul")

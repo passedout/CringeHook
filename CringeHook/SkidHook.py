@@ -78,7 +78,7 @@ while option !=0:
     elif option ==4:
         os.system("title Skidhook ✗ ┃ Dev: clownist ~ Credits")
         os.system("cls")
-        Write.Print("Github: @clownist\nClippy: @sex\nT.me: @Spaceyes\nCurrent Dc Server: .gg/termsofservice + .gg/vcc\n\n[Hit \"Enter\" To Return]", Colors.white, interval=0.000001)
+        Write.Print("Github: @clownist\nClippy: @sex\nT.me: @Gingest\nCurrent Dc Server: .gg/termsofservice + .gg/vcc\n\n[Hit \"Enter\" To Return]", Colors.white, interval=0.000001)
         os.system("pause >nul")
         os.system("cls")
     else:

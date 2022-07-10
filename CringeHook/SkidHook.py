@@ -10,19 +10,19 @@ from pystyle import Colors
 from pystyle import Write
 from discord.utils import get
 
-os.system("title Skidhook ✗ ┃ Dev: Struukz ~ Main")
+os.system("title Skidhook ✗ ┃ Dev: Hazy ~ Main")
 os.system("cls")
 
 def menu():
-    os.system("title Skidhook ✗ ┃ Dev: Struukz ~ Main")
+    os.system("title Skidhook ✗ ┃ Dev: Hazy ~ Main")
     print(f"""{Fore.CYAN}
 .▄▄ · ▄ •▄ ▪  ·▄▄▄▄   ▄ .▄            ▄ •▄ 
 ▐█ ▀. █▌▄▌▪██ ██▪ ██ ██▪▐█▪     ▪     █▌▄▌▪
 ▄▀▀▀█▄▐▀▀▄·▐█·▐█· ▐█▌██▀▐█ ▄█▀▄  ▄█▀▄ ▐▀▀▄·
 ▐█▄▪▐█▐█.█▌▐█▌██. ██ ██▌▐▀▐█▌.▐▌▐█▌.▐▌▐█.█▌
  ▀▀▀▀ ·▀  ▀▀▀▀▀▀▀▀▀• ▀▀▀ · ▀█▄▀▪ ▀█▄▀▪·▀  ▀
-{Fore.BLUE}╚═► {Fore.BLUE}Github: @AbsoluteStruukz
-{Fore.BLUE}╚═► {Fore.CYAN}Telegram: @Struukz {Fore.RESET}
+{Fore.BLUE}╚═► {Fore.BLUE}Github: @whoresmad
+{Fore.BLUE}╚═► {Fore.CYAN}Telegram: @riphoes {Fore.RESET}
 """)
     print(f"{Fore.BLUE}╔═══════════════════╗\n║{Fore.CYAN}[1] Delete Webhook {Fore.BLUE}║")
     print(f"{Fore.BLUE}║{Fore.CYAN}[2] Spam Webhook   {Fore.BLUE}║")
@@ -36,7 +36,7 @@ option = int(input(f"{Fore.CYAN}╔══{Fore.BLUE}[{Fore.CYAN}Choose your opti
 
 while option !=0:
     if option ==1:
-        os.system("title Skidout ✗ ┃ Dev: Struukz ~ Delete Webhook")
+        os.system("title Skidout ✗ ┃ Dev: Hazy ~ Delete Webhook")
         webhook = input(f"{Fore.CYAN}╔══{Fore.BLUE}[{Fore.CYAN}Enter the webhook you want to delete{Fore.BLUE}]{Fore.CYAN}{Fore.CYAN}\n╚══►{Fore.BLUE} ")
         checkkl = requests.get(webhook)
         if checkkl.status_code == 200:
@@ -50,19 +50,19 @@ while option !=0:
             os.system("cls")
 
     elif option ==2:
-        os.system("title Skidhook ✗ ┃ Dev: Struukz ~ Spam Webhook")
+        os.system("title Skidhook ✗ ┃ Dev: Hazy ~ Spam Webhook")
         webhookurl = Webhook(input(f"{Fore.CYAN}╔══{Fore.BLUE}[{Fore.CYAN}Enter webhook{Fore.BLUE}]{Fore.CYAN}{Fore.CYAN}\n╚══►{Fore.BLUE} "))
         message = input(f"{Fore.CYAN}╔══{Fore.BLUE}[{Fore.CYAN}What do you want to spam{Fore.BLUE}]{Fore.CYAN}{Fore.CYAN}\n╚══►{Fore.BLUE} ")
 
         while True:
             time.sleep(0)
-            webhookurl.send(message + " | https://discord.gg/vcc *Spammed with*: 卍**CringeHook**卐", avatar_url="https://cdn.discordapp.com/attachments/958414220926533703/985556711978963004/bleed_transparent.png", username="Skidbot | Github: @GotRipped")
+            webhookurl.send(message + " | https://discord.gg/broke *Spammed with*: 卍**CringeHook**卐", avatar_url="https://cdn.discordapp.com/attachments/958414220926533703/985556711978963004/bleed_transparent.png", username="Skidbot | Github: @GotRipped")
             print(f"{Fore.CYAN}╚══►{Fore.GREEN}Message Sent.")
             time.sleep(0)
             print(f"{Fore.CYAN}╔══{Fore.RED}[{Fore.WHITE}+{Fore.RED}]{Fore.BLUE}: {Fore.YELLOW}\"ctrl + c\" {Fore.BLUE}AT ANY TIME TO STOP!!")
 
     elif option ==3:
-        os.system("title Skidhook ✗ ┃ Dev: Struukz ~ Check Webhook")
+        os.system("title Skidhook ✗ ┃ Dev: Hazy ~ Check Webhook")
         webhook = input(f"{Fore.CYAN}╔══{Fore.BLUE}[{Fore.CYAN}Enter the webhook you want to check{Fore.BLUE}]{Fore.CYAN}{Fore.CYAN}\n╚══►{Fore.BLUE} ")
         check = requests.get(webhook)
         if check.status_code == 404:
@@ -76,9 +76,9 @@ while option !=0:
             os.system("cls")
             
     elif option ==4:
-        os.system("title Skidhook ✗ ┃ Dev: Struukz ~ Credits")
+        os.system("title Skidhook ✗ ┃ Dev: Hazy ~ Credits")
         os.system("cls")
-        Write.Print("Github: @lemmebe\nClippy: @sex\nT.me: @lemmekms\nCurrent Dc Server: .gg/termsofservice + .gg/vcc\n\n[Hit \"Enter\" To Return]", Colors.white, interval=0.000001)
+        Write.Print("Github: @whoresmad\nClippy: @sex\nT.me: @riphoes\nCurrent Dc Server: .gg/termsofservice + .gg/broke\n\n[Hit \"Enter\" To Return]", Colors.white, interval=0.000001)
         os.system("pause >nul")
         os.system("cls")
     else:
@@ -90,7 +90,7 @@ while option !=0:
     menu()
     option = int(input(f"{Fore.CYAN}╔══{Fore.BLUE}[{Fore.CYAN}Choose your option{Fore.BLUE}]{Fore.CYAN}{Fore.CYAN}\n╚══►{Fore.BLUE} "))
 
-os.system("title Skidhook ✗ ┃ Dev: Struukz ~ Byebye :(")
+os.system("title Skidhook ✗ ┃ Dev: Hazy ~ Byebye :(")
 os.system("cls")
 Write.Print("Thx for using SkidHook, Goodbye!\n\n[Hit \"Enter\" To exit]", Colors.white, interval=0.000001)
 os.system("pause >nul")

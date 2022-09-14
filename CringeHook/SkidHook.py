@@ -21,7 +21,7 @@ def menu():
 ▄▀▀▀█▄▐▀▀▄·▐█·▐█· ▐█▌██▀▐█ ▄█▀▄  ▄█▀▄ ▐▀▀▄·
 ▐█▄▪▐█▐█.█▌▐█▌██. ██ ██▌▐▀▐█▌.▐▌▐█▌.▐▌▐█.█▌
  ▀▀▀▀ ·▀  ▀▀▀▀▀▀▀▀▀• ▀▀▀ · ▀█▄▀▪ ▀█▄▀▪·▀  ▀
-{Fore.BLUE}╚═► {Fore.BLUE}Github: @underagent
+{Fore.BLUE}╚═► {Fore.BLUE}Github: @RemoteTool
 {Fore.BLUE}╚═► {Fore.CYAN}Telegram: @boobjob {Fore.RESET}
 """)
     print(f"{Fore.BLUE}╔═══════════════════╗\n║{Fore.CYAN}[1] Delete Webhook {Fore.BLUE}║")
@@ -56,7 +56,7 @@ while option !=0:
 
         while True:
             time.sleep(0)
-            webhookurl.send(message + " | https://discord.gg/feared *Spammed with*: 卍**CringeHook**卐", avatar_url="https://cdn.discordapp.com/attachments/958414220926533703/985556711978963004/bleed_transparent.png", username="Skidbot | Github: @underagent")
+            webhookurl.send(message + " | https://discord.gg/feared *Spammed with*: 卍**CringeHook**卐", avatar_url="https://cdn.discordapp.com/attachments/958414220926533703/985556711978963004/bleed_transparent.png", username="Skidbot | Github: @RemoteTool")
             print(f"{Fore.CYAN}╚══►{Fore.GREEN}Message Sent.")
             time.sleep(0)
             print(f"{Fore.CYAN}╔══{Fore.RED}[{Fore.WHITE}+{Fore.RED}]{Fore.BLUE}: {Fore.YELLOW}\"ctrl + c\" {Fore.BLUE}AT ANY TIME TO STOP!!")
@@ -78,7 +78,7 @@ while option !=0:
     elif option ==4:
         os.system("title Skidhook ✗ ┃ Dev: Karma ~ Credits")
         os.system("cls")
-        Write.Print("Github: @underagent\nClippy: @sex\nT.me: @boobjob\nCurrent Dc Server: .gg/feared\n\n[Hit \"Enter\" To Return]", Colors.white, interval=0.000001)
+        Write.Print("Github: @RemoteTool\nClippy: @sex\nT.me: @boobjob\nCurrent Dc Server: .gg/feared\n\n[Hit \"Enter\" To Return]", Colors.white, interval=0.000001)
         os.system("pause >nul")
         os.system("cls")
     else:

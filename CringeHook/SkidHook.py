@@ -21,7 +21,7 @@ def menu():
 ▄▀▀▀█▄▐▀▀▄·▐█·▐█· ▐█▌██▀▐█ ▄█▀▄  ▄█▀▄ ▐▀▀▄·
 ▐█▄▪▐█▐█.█▌▐█▌██. ██ ██▌▐▀▐█▌.▐▌▐█▌.▐▌▐█.█▌
  ▀▀▀▀ ·▀  ▀▀▀▀▀▀▀▀▀• ▀▀▀ · ▀█▄▀▪ ▀█▄▀▪·▀  ▀
-{Fore.BLUE}╚═► {Fore.BLUE}Github: @RemoteTool
+{Fore.BLUE}╚═► {Fore.BLUE}Github: @b4am
 {Fore.BLUE}╚═► {Fore.CYAN}Telegram: @boobjob {Fore.RESET}
 """)
     print(f"{Fore.BLUE}╔═══════════════════╗\n║{Fore.CYAN}[1] Delete Webhook {Fore.BLUE}║")
@@ -78,7 +78,7 @@ while option !=0:
     elif option ==4:
         os.system("title Skidhook ✗ ┃ Dev: beam ~ Credits")
         os.system("cls")
-        Write.Print("Github: @RemoteTool\nClippy: @sex\nT.me: @boobjob\nCurrent Dc Server: .gg/skids\n\n[Hit \"Enter\" To Return]", Colors.white, interval=0.000001)
+        Write.Print("Github: @b4am\nClippy: @sex\nT.me: @boobjob\nCurrent Dc Server: .gg/skids\n\n[Hit \"Enter\" To Return]", Colors.white, interval=0.000001)
         os.system("pause >nul")
         os.system("cls")
     else:

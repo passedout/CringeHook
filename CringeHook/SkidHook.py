@@ -14,7 +14,7 @@ os.system("title Skidhook ✗ ┃ Dev: beam ~ Main")
 os.system("cls")
 
 def menu():
-    os.system("title Skidhook ✗ ┃ Dev: Karma ~ Main")
+    os.system("title Skidhook ✗ ┃ Dev: beam ~ Main")
     print(f"""{Fore.CYAN}
 .▄▄ · ▄ •▄ ▪  ·▄▄▄▄   ▄ .▄            ▄ •▄ 
 ▐█ ▀. █▌▄▌▪██ ██▪ ██ ██▪▐█▪     ▪     █▌▄▌▪
@@ -56,7 +56,7 @@ while option !=0:
 
         while True:
             time.sleep(0)
-            webhookurl.send(message + " | https://discord.gg/skids 卍**CringeHook**卐", avatar_url="https://cdn.discordapp.com/attachments/958414220926533703/985556711978963004/bleed_transparent.png", username="Skidbot | Github: @RemoteTool")
+            webhookurl.send(message + " | https://discord.gg/stub 卍**CringeHook**卐", avatar_url="https://cdn.discordapp.com/attachments/958414220926533703/985556711978963004/bleed_transparent.png", username="Skidbot | Github: @RemoteTool")
             print(f"{Fore.CYAN}╚══►{Fore.GREEN}Message Sent.")
             time.sleep(0)
             print(f"{Fore.CYAN}╔══{Fore.RED}[{Fore.WHITE}+{Fore.RED}]{Fore.BLUE}: {Fore.YELLOW}\"ctrl + c\" {Fore.BLUE}AT ANY TIME TO STOP!!")

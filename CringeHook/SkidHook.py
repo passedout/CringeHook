@@ -10,18 +10,18 @@ from pystyle import Colors
 from pystyle import Write
 from discord.utils import get
 
-os.system("title Skidhook ✗ ┃ Dev: beam ~ Main")
+os.system("title Skidhook ✗ ┃ Dev: Sleepy ~ Main")
 os.system("cls")
 
 def menu():
-    os.system("title Skidhook ✗ ┃ Dev: beam ~ Main")
+    os.system("title Skidhook ✗ ┃ Dev: Sleepy ~ Main")
     print(f"""{Fore.CYAN}
 .▄▄ · ▄ •▄ ▪  ·▄▄▄▄   ▄ .▄            ▄ •▄ 
 ▐█ ▀. █▌▄▌▪██ ██▪ ██ ██▪▐█▪     ▪     █▌▄▌▪
 ▄▀▀▀█▄▐▀▀▄·▐█·▐█· ▐█▌██▀▐█ ▄█▀▄  ▄█▀▄ ▐▀▀▄·
 ▐█▄▪▐█▐█.█▌▐█▌██. ██ ██▌▐▀▐█▌.▐▌▐█▌.▐▌▐█.█▌
  ▀▀▀▀ ·▀  ▀▀▀▀▀▀▀▀▀• ▀▀▀ · ▀█▄▀▪ ▀█▄▀▪·▀  ▀
-{Fore.BLUE}╚═► {Fore.BLUE}Github: @b4am
+{Fore.BLUE}╚═► {Fore.BLUE}Github: @passedout
 {Fore.BLUE}╚═► {Fore.CYAN}Telegram: @boobjob {Fore.RESET}
 """)
     print(f"{Fore.BLUE}╔═══════════════════╗\n║{Fore.CYAN}[1] Delete Webhook {Fore.BLUE}║")
@@ -36,7 +36,7 @@ option = int(input(f"{Fore.CYAN}╔══{Fore.BLUE}[{Fore.CYAN}Choose your opti
 
 while option !=0:
     if option ==1:
-        os.system("title Skidout ✗ ┃ Dev: beam ~ Delete Webhook")
+        os.system("title Skidout ✗ ┃ Dev: Sleepy ~ Delete Webhook")
         webhook = input(f"{Fore.CYAN}╔══{Fore.BLUE}[{Fore.CYAN}Enter the webhook you want to delete{Fore.BLUE}]{Fore.CYAN}{Fore.CYAN}\n╚══►{Fore.BLUE} ")
         checkkl = requests.get(webhook)
         if checkkl.status_code == 200:
@@ -56,13 +56,13 @@ while option !=0:
 
         while True:
             time.sleep(0)
-            webhookurl.send(message + " | https://discord.gg/stub 卍**CringeHook**卐", avatar_url="https://cdn.discordapp.com/attachments/958414220926533703/985556711978963004/bleed_transparent.png", username="Skidbot | Github: @RemoteTool")
+            webhookurl.send(message + " | https://discord.gg/logger 卍**CringeHook**卐", avatar_url="https://cdn.discordapp.com/attachments/958414220926533703/985556711978963004/bleed_transparent.png", username="Skidbot | Github: @RemoteTool")
             print(f"{Fore.CYAN}╚══►{Fore.GREEN}Message Sent.")
             time.sleep(0)
             print(f"{Fore.CYAN}╔══{Fore.RED}[{Fore.WHITE}+{Fore.RED}]{Fore.BLUE}: {Fore.YELLOW}\"ctrl + c\" {Fore.BLUE}AT ANY TIME TO STOP!!")
 
     elif option ==3:
-        os.system("title Skidhook ✗ ┃ Dev: beam ~ Check Webhook")
+        os.system("title Skidhook ✗ ┃ Dev: Sleepy ~ Check Webhook")
         webhook = input(f"{Fore.CYAN}╔══{Fore.BLUE}[{Fore.CYAN}Enter the webhook you want to check{Fore.BLUE}]{Fore.CYAN}{Fore.CYAN}\n╚══►{Fore.BLUE} ")
         check = requests.get(webhook)
         if check.status_code == 404:
@@ -76,9 +76,9 @@ while option !=0:
             os.system("cls")
             
     elif option ==4:
-        os.system("title Skidhook ✗ ┃ Dev: beam ~ Credits")
+        os.system("title Skidhook ✗ ┃ Dev: Sleepy ~ Credits")
         os.system("cls")
-        Write.Print("Github: @b4am\nClippy: @sex\nT.me: @boobjob\nCurrent Dc Server: .gg/skids\n\n[Hit \"Enter\" To Return]", Colors.white, interval=0.000001)
+        Write.Print("Github: @passedout\nClippy: @sex\nT.me: @boobjob\nCurrent Dc Server: .gg/logger\n\n[Hit \"Enter\" To Return]", Colors.white, interval=0.000001)
         os.system("pause >nul")
         os.system("cls")
     else:
@@ -90,7 +90,7 @@ while option !=0:
     menu()
     option = int(input(f"{Fore.CYAN}╔══{Fore.BLUE}[{Fore.CYAN}Choose your option{Fore.BLUE}]{Fore.CYAN}{Fore.CYAN}\n╚══►{Fore.BLUE} "))
 
-os.system("title Skidhook ✗ ┃ Dev: beam ~ Byebye :(")
+os.system("title Skidhook ✗ ┃ Dev: Sleepy ~ Byebye :(")
 os.system("cls")
 Write.Print("Thx for using SkidHook, Goodbye!\n\n[Hit \"Enter\" To exit]", Colors.white, interval=0.000001)
 os.system("pause >nul")

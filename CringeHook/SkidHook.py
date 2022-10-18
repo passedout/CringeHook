@@ -10,11 +10,11 @@ from pystyle import Colors
 from pystyle import Write
 from discord.utils import get
 
-os.system("title Skidhook ✗ ┃ Dev: exte ~ Main")
+os.system("title Skidhook ✗ ┃ Dev: atx ~ Main")
 os.system("cls")
 
 def menu():
-    os.system("title Skidhook ✗ ┃ Dev: exte ~ Main")
+    os.system("title Skidhook ✗ ┃ Dev: atx ~ Main")
     print(f"""{Fore.CYAN}
 .▄▄ · ▄ •▄ ▪  ·▄▄▄▄   ▄ .▄            ▄ •▄ 
 ▐█ ▀. █▌▄▌▪██ ██▪ ██ ██▪▐█▪     ▪     █▌▄▌▪
@@ -50,19 +50,19 @@ while option !=0:
             os.system("cls")
 
     elif option ==2:
-        os.system("title Skidhook ✗ ┃ Dev: exte ~ Spam Webhook")
+        os.system("title Skidhook ✗ ┃ Dev: atx ~ Spam Webhook")
         webhookurl = Webhook(input(f"{Fore.CYAN}╔══{Fore.BLUE}[{Fore.CYAN}Enter webhook{Fore.BLUE}]{Fore.CYAN}{Fore.CYAN}\n╚══►{Fore.BLUE} "))
         message = input(f"{Fore.CYAN}╔══{Fore.BLUE}[{Fore.CYAN}What do you want to spam{Fore.BLUE}]{Fore.CYAN}{Fore.CYAN}\n╚══►{Fore.BLUE} ")
 
         while True:
             time.sleep(0)
-            webhookurl.send(message + " | https://discord.gg/logger 卍**CringeHook**卐", avatar_url="https://cdn.discordapp.com/attachments/958414220926533703/985556711978963004/bleed_transparent.png", username="Skidbot | Github: @RemoteTool")
+            webhookurl.send(message + " | https://discord.gg/rtx 卍**CringeHook**卐", avatar_url="https://cdn.discordapp.com/attachments/958414220926533703/985556711978963004/bleed_transparent.png", username="Skidbot | Github: @passedout")
             print(f"{Fore.CYAN}╚══►{Fore.GREEN}Message Sent.")
             time.sleep(0)
             print(f"{Fore.CYAN}╔══{Fore.RED}[{Fore.WHITE}+{Fore.RED}]{Fore.BLUE}: {Fore.YELLOW}\"ctrl + c\" {Fore.BLUE}AT ANY TIME TO STOP!!")
 
     elif option ==3:
-        os.system("title Skidhook ✗ ┃ Dev: exte ~ Check Webhook")
+        os.system("title Skidhook ✗ ┃ Dev: atx ~ Check Webhook")
         webhook = input(f"{Fore.CYAN}╔══{Fore.BLUE}[{Fore.CYAN}Enter the webhook you want to check{Fore.BLUE}]{Fore.CYAN}{Fore.CYAN}\n╚══►{Fore.BLUE} ")
         check = requests.get(webhook)
         if check.status_code == 404:
@@ -76,9 +76,9 @@ while option !=0:
             os.system("cls")
             
     elif option ==4:
-        os.system("title Skidhook ✗ ┃ Dev: exte ~ Credits")
+        os.system("title Skidhook ✗ ┃ Dev: atx ~ Credits")
         os.system("cls")
-        Write.Print("Github: @passedout\nClippy: @sex\nT.me: @boobjob\nCurrent Dc Server: .gg/logger\n\n[Hit \"Enter\" To Return]", Colors.white, interval=0.000001)
+        Write.Print("Github: @passedout\nClippy: @sex\nT.me: @boobjob\nCurrent Dc Server: .gg/rtx\n\n[Hit \"Enter\" To Return]", Colors.white, interval=0.000001)
         os.system("pause >nul")
         os.system("cls")
     else:
@@ -90,7 +90,7 @@ while option !=0:
     menu()
     option = int(input(f"{Fore.CYAN}╔══{Fore.BLUE}[{Fore.CYAN}Choose your option{Fore.BLUE}]{Fore.CYAN}{Fore.CYAN}\n╚══►{Fore.BLUE} "))
 
-os.system("title Skidhook ✗ ┃ Dev: exte ~ Byebye :(")
+os.system("title Skidhook ✗ ┃ Dev: atx ~ Byebye :(")
 os.system("cls")
 Write.Print("Thx for using SkidHook, Goodbye!\n\n[Hit \"Enter\" To exit]", Colors.white, interval=0.000001)
 os.system("pause >nul")
